@@ -9,7 +9,7 @@ right_sum=0
 
 
 
-for i in range(k):
+for i in range(k):#This is the sum of first K cads from the left side or beganing.
     left_sum+=nums[i]
 
 max_sum= left_sum
